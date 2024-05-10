@@ -197,7 +197,7 @@ const Admin = () => {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#student-list">Student List</a></li>
                         <li><a href="#server-status">Server Status</a></li>
-                        <li><a href="#logout">Log Out</a></li>
+                        <Link to="/"><li><a href="#logout">Log Out</a></li></Link>
                     </ul>
                 </div>
                 <div className="right">

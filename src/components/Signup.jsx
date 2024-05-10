@@ -44,7 +44,7 @@ function Login() {
           placeholder="Name"
         />
         <input
-          type="number"
+          type="value"
           onChange={(e) => {
             setRegno(e.target.value);
           }}

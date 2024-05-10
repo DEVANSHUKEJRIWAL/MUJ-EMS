@@ -8,8 +8,6 @@ import Main from './Main';
 function First() {
   return (
     <div className="First">
-
-
       <Navbar />
       <SidePanel />
       <Main />

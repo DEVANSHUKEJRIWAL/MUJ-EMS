@@ -1,6 +1,6 @@
 import SidePanel from './SidePanel';
 import './Home.css';
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, Link } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
@@ -26,7 +26,11 @@ function Home() {
           <img className='logo' src="Manipal University1679046981_upload_logo.jpg" alt="img" />
           <ul>
             <li>
-              Report
+              <Link to="/">
+              <button>
+              Logout
+              </button>
+              </Link>
             </li>
             <input className='serachbar' type="text" placeholder='Search' style={{ borderRadius: 50 }} />
               <img src="3135715.png" alt="pro" className="pro" />

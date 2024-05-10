@@ -1,8 +1,9 @@
 import React, { useEffect, useState, useRef  } from "react";
 import "./Trial.css";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
+
 
 
 
@@ -206,7 +207,9 @@ const Trial = () => {
                           <p>{e.description}</p>
                           <h5>Faculty : {e.faculty}</h5>
                           <h5>Email ID : {e.faculty_id}</h5>
-
+                          <div className="submit2">
+              <button type="submit" onSubmit={submit}>Submit</button>
+            </div>
                         </div>
                       )}
                     </div>
@@ -222,6 +225,7 @@ const Trial = () => {
         {formSubmitted && !adminRequestSent && (
           <div className="button-container">
             <button onClick={handleOpenElectiveChange}>Change Open Elective</button>
+            <Link to ='/home'><button>Home</button></Link>
           </div>
         )}
         {adminRequestSent && (

@@ -91,24 +91,25 @@ const Faculty = () => {
 
     const handleSave = () => {
         // Save the faculty names entered in the first table
-        const updatedFacultyAssignments = { ...facultyAssignments };
-        Object.keys(facultyAssignments).forEach(name => {
-            if (!updatedFacultyAssignments[name]) {
-                updatedFacultyAssignments[name] = facultyAssignments[name];
-            }
+         const updatedFacultyAssignments = { ...facultyAssignments };
+
+    // Loop through facultyNames and update facultyAssignments accordingly
+    facultyNames.forEach((name, index) => {
+        updatedFacultyAssignments[index] = name;
+    });
+
+    setFacultyAssignments(updatedFacultyAssignments);
+
+    // Save faculty names to the database
+    axios.post('http://localhost:8000/saveFacultyNames', { facultyNames: Object.values(updatedFacultyAssignments) })
+        .then(response => {
+            console.log(response.data);
+        })
+        .catch(error => {
+            console.error('Error saving faculty names:', error);
         });
-
-        setFacultyAssignments(updatedFacultyAssignments);
-
-        // Save faculty names to the database
-        axios.post('http://localhost:8000/saveFacultyNames', { facultyNames: Object.values(updatedFacultyAssignments) })
-            .then(response => {
-                console.log(response.data);
-            })
-            .catch(error => {
-                console.error('Error saving faculty names:', error);
-            });
     };
+    
 
     const handleDownload = () => {
         // Function to handle downloading student list

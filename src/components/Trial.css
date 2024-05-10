@@ -34,6 +34,10 @@
   display:grid;
   margin-right: 20px;
 }
+.select-container option {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
 
 .input-container label {
   margin-bottom: 5px;
@@ -51,7 +55,7 @@
 }
 
 .radio-container button {
-  background-color: black;
+  background-color: #d56528;
   border: 1px solid #ccc;
   border-radius: 4px;
   cursor: pointer;
@@ -62,9 +66,18 @@
   font-size: 16px;
 }
 
+.radio-container button:hover {
+  background-color: #e9580a;
+  
+}
+.submit2{
+  margin-right:20px;
+}
+
+
 .radio-container .description {
   margin-top: 10px;
-  padding: 10px;
+  padding: 30px;
   background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 4px;
