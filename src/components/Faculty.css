@@ -1,0 +1,125 @@
+/* Admin.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar .menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.side-panel {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.side-panel input[type="number"],
+.side-panel input[type="text"],
+.side-panel button {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    padding: 20px;
+    height: calc(100vh - 100px); /* Calculate height to fill remaining space */
+    overflow: auto; /* Enable scrolling if content exceeds height */
+}
+
+.stu {
+    margin-bottom: 30px;
+}
+
+.stu h2 {
+    margin-bottom: 10px;
+}
+
+.inside {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.inside table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inside th,
+.inside td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.inside th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.inside tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* CSS for the "Assign Faculty" button */
+
+button {
+    background-color: #e67e22; /* Blue color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; 
+    padding:20px;
+    margin:5px;/* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #d35400; 
+}
+
+button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+
+
+input[type="text"] {
+    width: 90%; /* Full width */
+    padding: 10px; /* Padding */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s ease;
+    margin-right: 20px; /* Smooth transition on focus */
+}
+
+input[type="text"]:focus {
+    outline: none; /* Remove focus outline */
+    border-color: #007bff; /* Border color on focus */
+}

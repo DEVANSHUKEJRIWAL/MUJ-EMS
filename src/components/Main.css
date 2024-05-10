@@ -1,0 +1,25 @@
+.box {
+    width: 100%;
+    max-width: 1050px;
+    margin: 158px auto 0 auto;
+    height: 600px;
+    border-radius: 10px;
+    padding-left: 50px;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .box {
+      max-width: 90%;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .box {
+      margin-top: 100px;
+      margin-left: 600px;
+      height: auto;
+      padding: 20px;
+    }
+  }
+  
