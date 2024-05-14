@@ -1,5 +1,6 @@
 
-
+import Navbar from './Navbar';
+import SidePanel from './SidePanel';
 import React from 'react';
 import './TimeTable.css';
 
@@ -14,7 +15,8 @@ function Timetable() {
 
   return (
     <>
-    
+    <Navbar />
+    <SidePanel/>
     <div className="timetable">
       <h2>Timetable for 15 Days</h2>
       <div className="days">
