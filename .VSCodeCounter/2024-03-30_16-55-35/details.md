@@ -21,7 +21,7 @@ Total : 37 files,  21591 codes, 65 comments, 389 blanks, all 22045 lines
 | [mongo2.js](/mongo2.js) | JavaScript | 24 | 0 | 4 | 28 |
 | [package-lock.json](/package-lock.json) | JSON | 18,827 | 0 | 1 | 18,828 |
 | [package.json](/package.json) | JSON | 49 | 0 | 1 | 50 |
-| [public/index.html](/public/index.html) | HTML | 20 | 23 | 1 | 44 |
+| [public/index.html](/index.html) | HTML | 20 | 23 | 1 | 44 |
 | [public/manifest.json](/public/manifest.json) | JSON | 25 | 0 | 1 | 26 |
 | [src/App.css](/src/App.css) | CSS | 33 | 0 | 6 | 39 |
 | [src/App.js](/src/App.js) | JavaScript | 25 | 0 | 8 | 33 |
