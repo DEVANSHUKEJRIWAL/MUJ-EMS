@@ -11,18 +11,18 @@ Total : 37 files,  21591 codes, 65 comments, 389 blanks, all 22045 lines
 ## Files
 | filename | language | code | comment | blank | total |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| [README.md](/README.md) | Markdown | 40 | 0 | 33 | 73 |
+| [README.md](/server/README.md) | Markdown | 40 | 0 | 33 | 73 |
 | [api/index.js](/api/index.js) | JavaScript | 15 | 1 | 6 | 22 |
 | [api/package-lock.json](/api/package-lock.json) | JSON | 985 | 0 | 1 | 986 |
 | [api/package.json](/api/package.json) | JSON | 18 | 0 | 1 | 19 |
-| [app.js](/app.js) | JavaScript | 132 | 0 | 53 | 185 |
-| [assignmentModel.js](/assignmentModel.js) | JavaScript | 27 | 3 | 4 | 34 |
-| [mongo.js](/mongo.js) | JavaScript | 22 | 0 | 7 | 29 |
-| [mongo2.js](/mongo2.js) | JavaScript | 24 | 0 | 4 | 28 |
-| [package-lock.json](/package-lock.json) | JSON | 18,827 | 0 | 1 | 18,828 |
-| [package.json](/package.json) | JSON | 49 | 0 | 1 | 50 |
-| [public/index.html](/index.html) | HTML | 20 | 23 | 1 | 44 |
-| [public/manifest.json](/public/manifest.json) | JSON | 25 | 0 | 1 | 26 |
+| [app.js](/server/app.js) | JavaScript | 132 | 0 | 53 | 185 |
+| [assignmentModel.js](/server/assignmentModel.js) | JavaScript | 27 | 3 | 4 | 34 |
+| [mongo.js](/server/mongo.js) | JavaScript | 22 | 0 | 7 | 29 |
+| [mongo2.js](/server/mongo2.js) | JavaScript | 24 | 0 | 4 | 28 |
+| [package-lock.json](/server/package-lock.json) | JSON | 18,827 | 0 | 1 | 18,828 |
+| [package.json](/server/package.json) | JSON | 49 | 0 | 1 | 50 |
+| [public/index.html](/client/index.html) | HTML | 20 | 23 | 1 | 44 |
+| [public/manifest.json](/client/public/manifest.json) | JSON | 25 | 0 | 1 | 26 |
 | [src/App.css](/src/App.css) | CSS | 33 | 0 | 6 | 39 |
 | [src/App.js](/src/App.js) | JavaScript | 25 | 0 | 8 | 33 |
 | [src/components/Admin.css](/src/components/Admin.css) | CSS | 210 | 17 | 50 | 277 |
@@ -45,8 +45,8 @@ Total : 37 files,  21591 codes, 65 comments, 389 blanks, all 22045 lines
 | [src/components/Trial.jsx](/src/components/Trial.jsx) | JavaScript JSX | 231 | 0 | 21 | 252 |
 | [src/index.css](/src/index.css) | CSS | 3 | 0 | 0 | 3 |
 | [src/index.js](/src/index.js) | JavaScript | 10 | 0 | 5 | 15 |
-| [tailwind.config.js](/tailwind.config.js) | JavaScript | 9 | 1 | 2 | 12 |
-| [userModel.js](/userModel.js) | JavaScript | 30 | 0 | 5 | 35 |
-| [userModel2.js](/userModel2.js) | JavaScript | 30 | 0 | 5 | 35 |
+| [tailwind.config.js](/client/tailwind.config.js) | JavaScript | 9 | 1 | 2 | 12 |
+| [userModel.js](/server/userModel.js) | JavaScript | 30 | 0 | 5 | 35 |
+| [userModel2.js](/server/userModel2.js) | JavaScript | 30 | 0 | 5 | 35 |
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
